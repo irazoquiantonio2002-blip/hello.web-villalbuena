@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villavalbuena | Casas en preventa con diseño residencial premium</title>
+  <meta name="description" content="Villavalbuena es un proyecto residencial en preventa con 208 casas, acceso controlado 24/7, amenidades, acabados de lujo y 6 modelos desde 125 m².">
+  <meta name="keywords" content="Villavalbuena, casas en preventa, proyecto residencial, casas premium, preventa residencial, acceso controlado, amenidades">
+  <meta property="og:title" content="Villavalbuena | Preventa residencial">
+  <meta property="og:description" content="Casas residenciales con diseño elegante, acabados de lujo, amenidades y opciones de pago en preventa.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="A59AF0F4C169A42AE704F5CBE5CF1C99.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <img src="villavalbuena-logo.png" alt="">
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Villavalbuena</span>
+  </div>
+
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Villavalbuena inicio">
+          <img class="nav-logo-img" src="villavalbuena-logo.png" alt="Logo Villavalbuena">
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Proyecto</a></li>
+            <li><a href="#ambientes">Espacios</a></li>
+            <li><a href="#proceso">Preventa</a></li>
+            <li><a href="#producto">Modelos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta">Agendar asesoría</a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Proyecto</a>
+      <a href="#ambientes">Espacios</a>
+      <a href="#proceso">Preventa</a>
+      <a href="#producto">Modelos</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Agendar asesoría →</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Preventa residencial · 208 casas · Acceso controlado 24/7
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Villavalbuena</span></span>
+            <span class="line"><span>residencial en</span></span>
+            <span class="line"><span class="accent">preventa.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            Un nuevo entorno de casas con fachadas contemporáneas, acabados de lujo,
+            amenidades y 6 modelos diseñados para familias que buscan confort, armonía
+            y plusvalía.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar información
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#producto" class="btn-outline">
+              <i class="fa-solid fa-house-chimney-window" aria-hidden="true"></i>
+              Ver modelos
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Datos del proyecto">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+              Cluster 24/7
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+              Desde 125 m²
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-key" aria-hidden="true"></i>
+              Aparta con $30,000
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">El proyecto</div>
+            <h2 class="why-quote" id="why-heading">
+              Diseño residencial para vivir con calma,
+              <em> detalle y sentido de pertenencia.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Villavalbuena reúne arquitectura contemporánea, espacios funcionales y una
+            propuesta de preventa pensada para comprar sin descapitalizarte.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-shield-heart"></i></div>
+            <h3>Acceso controlado</h3>
+            <p>Cluster con control 24/7 para una vida residencial más privada, ordenada y tranquila.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-gem"></i></div>
+            <h3>Acabados de lujo</h3>
+            <p>Fachadas elegantes e interiores con materiales y proporciones que elevan la experiencia diaria.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-tree-city"></i></div>
+            <h3>Amenidades</h3>
+            <p>Espacios pensados para convivir, descansar y disfrutar el entorno con tu familia.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Alta plusvalía</h3>
+            <p>Un proyecto de 208 casas en una zona documentada como de alta plusvalía.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Espacios</div>
+            <h2 class="section-title" id="amb-heading">
+              Arquitectura sobria,<br>
+              <span class="gold">interiores cálidos</span>
+            </h2>
+            <p class="section-lead">
+              Renders del proyecto que muestran la intención estética: líneas limpias,
+              tonos naturales y ambientes diseñados para sentirse en casa desde el primer día.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Preventa activa</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="A55C91ECD3DF7B5B119132B16525854F.jpeg"
+              alt="Fachada residencial contemporánea de Villavalbuena con áreas verdes">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-building"></i></div>
+              <h3>Fachadas con carácter</h3>
+              <p>Volúmenes limpios, vegetación integrada y una imagen residencial elegante.</p>
+              <div class="amb-temp">208 casas con fachadas distintivas</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="A53F4D7594EF47B3E420F980AA531A73.jpeg"
+              alt="Recámara de Villavalbuena con acabados cálidos y balcón">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-bed"></i></div>
+              <h3>Privacidad y descanso</h3>
+              <p>Recámaras con atmósfera serena, luz natural y sensación de refugio.</p>
+              <div class="amb-temp">Modelos de 3 habitaciones</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="A56FA1909E4054008BEC0C86F0FB8970.jpeg"
+              alt="Cocina y comedor de Villavalbuena con diseño minimalista">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-utensils"></i></div>
+              <h3>Vida cotidiana fluida</h3>
+              <p>Cocina, comedor y áreas sociales conectadas para disfrutar cada rutina.</p>
+              <div class="amb-temp">Distribuciones funcionales</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+        <div class="proceso-header reveal">
+          <div class="label">Proceso de preventa</div>
+          <h2 class="section-title" id="proceso-heading">
+            Compra con claridad, ritmo y <span class="gold">acompañamiento</span>
+          </h2>
+          <p>La preventa está diseñada para que elijas modelo, apartes tu casa y avances con un plan de pago ordenado.</p>
+        </div>
+
+        <div class="proceso-grid">
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Agenda asesoría</h3>
+            <p>Revisamos disponibilidad, modelos, precios de preventa y forma de compra de acuerdo con tu perfil.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Aparta tu modelo</h3>
+            <p>Elige la distribución que más te guste y aparta con $30,000 para asegurar tu unidad.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Planea tu enganche</h3>
+            <p>Tendrás más de 10 meses para pagar el 10% de enganche o liquidar sin intereses.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+          <div class="reveal">
+            <div class="label">Modelos de casa</div>
+            <h2 class="section-title" id="prod-heading">
+              6 distribuciones para<br>
+              <span class="gold">diferentes estilos de familia</span>
+            </h2>
+            <p class="producto-lead">
+              Casas construidas en terrenos de 6 x 17.5 m (105 m²), con sala,
+              comedor, cocina, patio y recámaras pensadas para crecer contigo.
+            </p>
+
+            <ul class="feature-rows" aria-label="Modelos residenciales Villavalbuena">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
+                <div>
+                  <h4>Ciprés · 125 m²</h4>
+                  <p>3 habitaciones, walk-in closet en principal y precio desde $2,728,000.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-leaf"></i></div>
+                <div>
+                  <h4>Fresno · 132 m²</h4>
+                  <p>Distribución familiar con alacena, patio y precio desde $3,016,000.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-tree"></i></div>
+                <div>
+                  <h4>Encino y Álamo · 133 a 137 m²</h4>
+                  <p>Opciones con recámaras amplias y precios desde $3,018,000 y $3,048,000.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-spa"></i></div>
+                <div>
+                  <h4>Olmo y Nogal · 149 a 164 m²</h4>
+                  <p>Modelos de mayor amplitud, desde $3,404,000 y $3,725,000.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Datos generales de los modelos">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">6</span>
+                <span class="spec-name">Modelos</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">105 m²</span>
+                <span class="spec-name">Terreno</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">125-164</span>
+                <span class="spec-name">m² construcción</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">2027</span>
+                <span class="spec-name">Entregas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene"
+                 role="img" aria-label="Vista exterior al atardecer del proyecto residencial Villavalbuena">
+              <div class="led-panel-body"></div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Escritura desde enero 2027
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-calendar-check"></i>
+                Entregas desde febrero 2027
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" aria-label="Estadísticas clave de Villavalbuena">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="208" data-suffix="" aria-label="208 casas">0</div>
+            <div class="stat-lbl">Casas<br>residenciales</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="6" data-suffix="" aria-label="6 modelos">0</div>
+            <div class="stat-lbl">Modelos<br>de casa</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="105" data-suffix=" m²" aria-label="105 metros cuadrados">0</div>
+            <div class="stat-lbl">Terreno<br>por unidad</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="30000" data-prefix="$" aria-label="30,000 pesos">0</div>
+            <div class="stat-lbl">Apartado<br>inicial</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+        <div class="sectores-hdr reveal">
+          <div class="label">Para quién es</div>
+          <h2 class="section-title" id="sec-heading">
+            Un residencial para comprar con <span class="gold">visión</span>
+          </h2>
+          <p>Villavalbuena conecta diseño, confort y condiciones de preventa para diferentes formas de compra.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-people-roof sector-icon" aria-hidden="true"></i>
+            <h3>Familias</h3>
+            <p>Distribuciones de 3 habitaciones y áreas sociales funcionales.</p>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-file-signature sector-icon" aria-hidden="true"></i>
+            <h3>Crédito bancario</h3>
+            <p>Acepta todos los créditos bancarios con apoyo en el trámite.</p>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-sack-dollar sector-icon" aria-hidden="true"></i>
+            <h3>Compra de contado</h3>
+            <p>Opción de liquidar sin intereses durante el periodo de preventa.</p>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-arrow-trend-up sector-icon" aria-hidden="true"></i>
+            <h3>Plusvalía</h3>
+            <p>Proyecto ubicado en una zona señalada como de alta plusvalía.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Agenda tu asesoría de <span class="gold">preventa</span>
+          </h2>
+          <p>Recibe información de disponibilidad, modelos, precios y esquema de apartado.</p>
+        </div>
+
+        <div class="contact-box reveal">
+          <div class="contact-info">
+            <h3>Atención personalizada</h3>
+            <p class="ci-sub">Conoce Villavalbuena y elige el modelo que mejor se adapta a tu familia.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="ci-body">
+                  <h4>Ubicación</h4>
+                  <p>Consulta la ubicación del desarrollo en Google Maps.</p>
+                  <a href="https://www.google.com.mx/maps/search/21.185074,+-101.748833"
+                     target="_blank" rel="noopener noreferrer" class="ci-wa-link">Ver mapa →</a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+                <div class="ci-body">
+                  <h4>Teléfono</h4>
+                  <p><a href="tel:+524771211951">477 121 1951</a></p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+                <div class="ci-body">
+                  <h4>Correo</h4>
+                  <p><a href="mailto:lucyarguello1971@gmail.com">lucyarguello1971@gmail.com</a></p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Solicita disponibilidad y precios de preventa.</p>
+                  <a href="https://wa.me/524771211951" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">Abrir chat →</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar información</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Tu nombre" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">Me interesa</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Información general de Villavalbuena</option>
+                    <option>Modelo Ciprés</option>
+                    <option>Modelo Fresno</option>
+                    <option>Modelo Encino</option>
+                    <option>Modelo Álamo</option>
+                    <option>Modelo Olmo</option>
+                    <option>Modelo Nogal</option>
+                    <option>Crédito bancario</option>
+                    <option>Compra de contado</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Mensaje</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Cuéntanos qué modelo o forma de pago te interesa."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                Enviar por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="villavalbuena-logo.png" alt="Logo Villavalbuena">
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Villavalbuena. Todos los derechos reservados.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.google.com.mx/maps/search/21.185074,+-101.748833"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Google Maps">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </a>
+          <a href="mailto:lucyarguello1971@gmail.com"
+             class="footer-soc" aria-label="Correo">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/524771211951" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/524771211951?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Villavalbuena%20y%20sus%20modelos%20en%20preventa."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
