@@ -111,7 +111,7 @@ if (form) {
     }
 
     const text = [
-      "Hola, quiero información sobre Villavalbuena.",
+      "Hola, quiero información sobre Villa Valbuena.",
       `Nombre: ${name}`,
       `Interés: ${interest}`,
       `Mensaje: ${msg}`

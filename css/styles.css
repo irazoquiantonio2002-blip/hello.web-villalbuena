@@ -298,18 +298,18 @@ body.menu-open #navbar {
 }
 
 .hero-bg {
-  background-image: url("../A59AF0F4C169A42AE704F5CBE5CF1C99.jpeg");
+  background-image: url("../A5A2B0473144784C955FDB99599E9578.jpeg");
   background-size: cover;
   background-position: center;
   transform: scale(1.04);
 }
 
 .hero-overlay {
-  background: linear-gradient(90deg, rgba(0, 43, 36, 0.88), rgba(0, 76, 63, 0.48) 48%, rgba(0, 43, 36, 0.44));
+  background: linear-gradient(90deg, rgba(0, 43, 36, 0.62), rgba(0, 76, 63, 0.3) 48%, rgba(0, 43, 36, 0.22));
 }
 
 .hero-vignette {
-  box-shadow: inset 0 0 180px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 0 180px rgba(0, 0, 0, 0.28);
 }
 
 .hero-grid {
