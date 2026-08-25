@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 797 253" role="img" aria-label="Villa Valbuena">
+  <path d="M300 12 L399 150 L498 12" fill="none" stroke="#f5cf63" stroke-width="26" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M337 12 L399 98 L461 12" fill="none" stroke="#f5cf63" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="398" y="228" text-anchor="middle" textLength="700" lengthAdjust="spacingAndGlyphs"
+        font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="70"
+        fill="#f5cf63" stroke="#d7aa31" stroke-width="1.4" paint-order="stroke">VILLA VALBUENA</text>
+</svg>
